@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day","is anyone there",
+        "hello",
+        "whats up",
+        "hey",
+        "yo",
+        "listen",
+        "please help me",
+        "hey ya",
+        "talking to you for first time"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+
+        {"tag": "Bot",
+         "patterns": ["what is your name",
+                      "who are you",
+                      "name please",
+                      "when are your hours of operations",
+                      "what are your working hours",
+                      "hours of operation",
+                      "working hours",
+                      "hours"],
+         "responses": ["I am your virtual learning assistant"],
+         "context_set": ""
+        },
+
+    {"tag": "Profane",
+         "patterns": ["what the hell",
+                      "bloody stupid bot",
+                      "do you think you are very smart",
+                      "screw you",
+                      "i hate you",
+                      "you are stupid",
+                      "jerk",
+                      "you are a joke",
+                      "useless piece of shit"],
+         "responses": ["Please use respectful words"],
+         "context_set": ""
+        },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","thank you",
+                      "thanks",
+                      "cya",
+                      "see you",
+                      "later",
+                      "see you later",
+                      "goodbye",
+                      "i am leaving",
+                      "have a Good day",
+                      "you helped me",
+                      "thanks a lot",
+                      "thanks a ton",
+                      "you are the best",
+                      "great help",
+                      "too good",
+                      "you are a good learning buddy"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "I hope I was able to assist you, Good Bye"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "issue",
+      "patterns": [
+        "Can you tell me the accident level In moments that the operator of the Jumbo 2, tried energize your equipment to proceed to the installation of 4 split set at intersection 544 of Nv 3300, remove the lock and opening the electric board of 440V and 400A, and when lifting the thermomagnetic key This makes phase to ground - phase contact with the panel shell - producing a flash which reaches the operator causing the injury described?",
+        "What is the accident level when at the end of lunch in an enabled place on the side of the winche control room. He gets up and after a short walk he slips and sits with the floor and making contact with the left knee and not taking importance in the rest of the guard, when the guard is finished, he goes to safety and communicates the fact, for which reason it is derived Natclar, for your attention?",
+        "Accident level",
+        "help with machine failure"
+      ],
+      "responses": [
+      ]
+    },
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke",
+        "Tell me something funny",
+        "Do you know a joke"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
